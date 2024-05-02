@@ -202,6 +202,73 @@ git push -u origin master
 
 
 
+### RECAP - HOW TO USE GITHUB
+
+1) create repository online.
+2) git clone new_repo_url
+3) git add .
+4) git commit -m "working"
+5) git push origin main
+
+these are important command when we use a new github repository..
+
+this is how is basic level of,
+
+gitlab - for enterprise of level
+github - individual level
+
+### Branches uses?
+
+what the uses of Branches
+make the changes in master branch then files is changing again..
+
+here is the correct approach..
+
+when changes done by anybody then create messi..
+
+what is this is master..
+
+we have concept of branches..
+
+master protected branch..
+nobody is allowed to push into the branch.
+
+except the administrator.
+
+by the administrator only push the code..
+
+most simplest term..
+
+common repository?
+
+Master - > bug free / running on production mode.
+
+Other Branches -> running on bug, with testing mode..
+
+**** how to create new branch
+
+how do we need to create
+
+git checkout -b "branch_name"
+
+create and switch to that branch
+
+checkout means checking out of specific commits.
+
+-b means create branch. (create and switch it)
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
