@@ -295,19 +295,187 @@ after all done conflicts.
 
 2) git rebase --continue
 
+3) git rebase main
+
+4) git merge main
+
+
+are you able to imagine now, all developers, do that 
+
 git branch same thing..
 
 git add .
 
+whenever the time, do watch the recordings.
+
+skip theoratical parts..
 
 
 
+cloning or downloading a repo
+
+git clone url_link
+
+when you redo, from your commits.
+
+you can write the few commands..
+
+git reset --soft HEAD~1
+
+undo one of my commits.
+
+if i write HEAD~2 then two commits.
+
+Commiting or making a git checkpoint
+
+Steps Involved
+
+1) Add files to be considered for the next commit.
+
+-- Command:  git add file_name
+
+2) Make a commit
+-- Command: git commit -m "Commit_message"
+
+3) to view commit history, we can use
+
+Git log
+
+
+Its a pointing to a Branch
+
+
+i can the checking complete history..
+
+
+if you want to check in one single line then you can use..
+
+git log --oneline
+
+### Uploading new commits to remote.
+
+Git command: git push origin_name Head
+head can be: master, main, what is the name of the branch
+
+### Downloading updates from remote..
+
+one of the your colleagues added their updates to the remote repo. how would 
+
+Command Can be: Git pull origin branch_name
+
+
+does git clone and git pull have the same functionality?
+
+### Pull: takes code from branch
+### Clone: takes code from overall repository
+
+### in case of fire
+git commit
+git push
+git out
+
+
+From Local to Remote (github)
+
+Working directory (git add )
+stagging area (git commit)
+localREpo (git push) to remote
+
+From Repository to local
+
+Just do that
+Git pull origin main..
+
+what is staging area?
+
+after commiting files, or project that is a staging area?
+
+
+Untracked?
+
+Tracked Files..
+
+### GitHub Recap
+
+git status
+
+just changes in files that would be not in staging area. mark is red
+
+> git add .
+
+after changes then staged. mark is green
+
+changes need to be commited.
+
+> git commit -m "working message"
+
+Git Commands Recap
+
+1) How to check status of the local git repo? > git status
+2) how to get details on all past commits? > git log
+
+
+3) how to add all file changes to the staging area for the next commit? > git add .
+
+4) How to check the current branch name? > git status, or git branch (complete branches)
+
+Tools like github / github making the functionality > Public / Private
+
+
+### Why making updates directly to the master branch isn't recommended?
+
+no review / not working systematically ways..
+
+so thats the reason..
+not allowed to commit into the master code..
+
+utter chaos, or utter mess, never ever be handle..
+
+1) possiblity of buggy code
+2) pulled by other developer
+3) released to customer if auto deployement is set up from master branch.
+
+
+early access program, beta program, insider program, limited set of users..
+
+### Branches in git
+1) allows to create a copy of the current master branch and work on it separately
+2) avoid needing to add commit to the master immidietly
+
+3) commits in the new branch can be merged to the master branch once your code is ready and tested.
+
+4) can create a branch for
+>> different featues
+>> different teams
+>> different product releases (e.g. Feb release)
+
+should we create a branch for each developer working on a project?
+NO.
+
+### Proper Better Git Workflow
+1) create a new branch for the new release
+2) move to the new branch
+3) make changes and commit them
+4) push changes to the new branches
+5) get it reviewed for any issues
+>> functional or clean code.
+6) merge branch to master.
 
 
 
+Activity is
+1) create a new branch and make 2 commit there
+2) move back to the master branch and verify these commits are not yet aded to the master branch (use git log)
+3) merge the changes from the new branch to the master branch
+4) verify the new commits are now added to the master branch.
+
+### When can the conflict happen?
+
+same line of a file changed in both blue and green branches.
 
 
-
+### Git Trivia : HEAD
+refer to the most recent commit in the current branch
 
 
 
