@@ -257,6 +257,22 @@ checkout means checking out of specific commits.
 
 -b means create branch. (create and switch it)
 
+what is meaning of pushing the code..
+### Pushing the Code
+Local Repository to Online Repository
+
+### Pulling the Code
+Online Repository to Local Repository
+
+Command is 
+
+git pull origin main
+
+
+
+
+
+
 basically branch means, to add a code in different branch, and push, after checking, then admin can merge other branch code to main branch -> once verify and checkng whole code, then add to the main branch, after all code checking..
 
 
@@ -266,6 +282,23 @@ is an making sense..
 default branches is main and master..
 
 where to protect our branch.?
+
+
+### Where to check conflicts?
+
+using commands
+
+1) git rebase master
+
+then resolve all the things..
+after all done conflicts.
+
+2) git rebase --continue
+
+git branch same thing..
+
+git add .
+
 
 
 
