@@ -257,9 +257,15 @@ checkout means checking out of specific commits.
 
 -b means create branch. (create and switch it)
 
+basically branch means, to add a code in different branch, and push, after checking, then admin can merge other branch code to main branch -> once verify and checkng whole code, then add to the main branch, after all code checking..
 
 
 
+is an making sense..
+
+default branches is main and master..
+
+where to protect our branch.?
 
 
 
