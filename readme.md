@@ -257,6 +257,19 @@ checkout means checking out of specific commits.
 
 -b means create branch. (create and switch it)
 
+what is meaning of pushing the code..
+### Pushing the Code
+Local Repository to Online Repository
+
+### Pulling the Code
+Online Repository to Local Repository
+
+Command is 
+
+git pull origin main
+
+
+
 
 
 
